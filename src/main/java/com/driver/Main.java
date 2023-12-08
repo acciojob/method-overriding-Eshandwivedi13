@@ -32,7 +32,7 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        B b = new B();
+        B b = new B();//only overRiding(cuz implictly create ho jata na parent object), not runTime polymorphism or dynamic method
         b.meth();
     }
 }
